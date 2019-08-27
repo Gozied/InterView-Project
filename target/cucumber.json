@@ -1,0 +1,388 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "As a user i want to create account",
+        "description": "Successfully",
+        "id": "create-account;as-a-user-i-want-to-create-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13407824229,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i navigate to  home page",
+            "match": {
+              "location": "Utility.iNavigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2011922868,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i click sign in",
+            "match": {
+              "location": "Utility.i_click_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164094712,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i type email address in other to register",
+            "match": {
+              "location": "CreateAccount.iTypeEmailAddressInOtherToRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153144115,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click create account button",
+            "match": {
+              "location": "CreateAccount.iClickCreateAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2445227379,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i Enter Personal Information",
+            "match": {
+              "location": "CreateAccount.iEnterPersonalInformation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 647150398,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i Enter Address and Contact details",
+            "match": {
+              "location": "CreateAccount.iEnterAddressAndContactDetails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1399228602,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i click register button to complete registration",
+            "match": {
+              "location": "CreateAccount.iClickRegisterButtonToCompleteRegistration()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1258732688,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i verify account name to confirm Account has been created",
+            "match": {
+              "location": "CreateAccount.iVerifyAccountNameToConfirmAccountHasBeenCreated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create Account",
+    "description": "",
+    "id": "create-account",
+    "keyword": "Feature",
+    "uri": "CreateAccount.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "As a user i want to be able to delete item in basket",
+        "description": "",
+        "id": "delete-basket;as-a-user-i-want-to-be-able-to-delete-item-in-basket",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12065492139,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "i navigate to  home page",
+            "match": {
+              "location": "Utility.iNavigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2237630832,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i click sign in",
+            "match": {
+              "location": "Utility.i_click_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2010156922,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i login successfully",
+            "match": {
+              "location": "DeleteBasket.i_login_successfully()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4519472218,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i add a dress to my Shopping Cart",
+            "match": {
+              "location": "DeleteBasket.i_add_a_dress_to_my_Shopping_Cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33506517,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i confirm that Cart has a delete button",
+            "match": {
+              "location": "DeleteBasket.i_confirm_that_Cart_has_a_delete_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95553609,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i delete dress from Shopping cart",
+            "match": {
+              "location": "DeleteBasket.i_delete_dress_from_Shopping_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 973790609,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Banner should displays shopping cart is empty",
+            "match": {
+              "location": "DeleteBasket.banner_should_displays_shopping_cart_is_empty()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Delete Basket",
+    "description": "",
+    "id": "delete-basket",
+    "keyword": "Feature",
+    "uri": "DeleteBasket.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "repeat for both scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12047637478,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "i navigate to  home page",
+            "match": {
+              "location": "Utility.iNavigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61410113,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i Mouse over Women Menu to reveal options",
+            "match": {
+              "location": "SelectItem.i_Mouse_over_Women_Menu_to_reveal_options()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3633217667,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i click summer dresses",
+            "match": {
+              "location": "SelectItem.i_click_summer_dresses()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "As a user i want to select summer dress from",
+        "description": "Navigation Menu",
+        "id": "select-item;as-a-user-i-want-to-select-summer-dress-from",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12466961,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i should only see summer dresses in catalogue",
+            "match": {
+              "location": "SelectItem.i_should_only_see_summer_dresses_in_catalogue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "repeat for both scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12415708115,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "i navigate to  home page",
+            "match": {
+              "location": "Utility.iNavigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55901965,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i Mouse over Women Menu to reveal options",
+            "match": {
+              "location": "SelectItem.i_Mouse_over_Women_Menu_to_reveal_options()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3769987616,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i click summer dresses",
+            "match": {
+              "location": "SelectItem.i_click_summer_dresses()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "As a user i want to select item by price range",
+        "description": "",
+        "id": "select-item;as-a-user-i-want-to-select-item-by-price-range",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 141453837,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "i drag slider to set price range to $16-20$",
+            "match": {
+              "arguments": [
+                {
+                  "val": "16",
+                  "offset": 37
+                },
+                {
+                  "val": "20",
+                  "offset": 40
+                }
+              ],
+              "location": "SelectItem.iDragSliderToSetPriceRangeTo$$(int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 923450409,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Returned items are within the above price range",
+            "match": {
+              "location": "SelectItem.returnedItemsAreWithinTheAbovePriceRange()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Select Item",
+    "description": "",
+    "id": "select-item",
+    "keyword": "Feature",
+    "uri": "SelectItem.feature"
+  }
+]
