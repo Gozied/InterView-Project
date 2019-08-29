@@ -5,5 +5,5 @@ Feature: Delete Basket
       And i login successfully
       And i add a dress to my Shopping Cart
      And i confirm that Cart has a delete button
-     When i delete dress from Shopping cart
+    When i delete dress from Shopping cart
     Then Banner should displays shopping cart is empty

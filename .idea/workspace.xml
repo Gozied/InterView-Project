@@ -69,9 +69,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: DeleteBasket (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: DeleteBasket (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DeleteBasket.Feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DeleteBasket.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="AutoPractice" />
@@ -87,14 +87,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: DeleteBasket (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: SelectItem (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DeleteBasket.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SelectItem.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="AutoPractice" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: DeleteBasket" />
+      <option name="SUGGESTED_NAME" value="Feature: SelectItem" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -123,6 +123,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: As a user i want to be able to delete item in basket" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DeleteBasket.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="AutoPractice" />
+      <option name="NAME_FILTER" value="^As a user i want to be able to delete item in basket$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^As a user i want to be able to delete item in basket$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: As a user i want to be able to delete item in basket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunnerTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="AutoPractice" />
       <extension name="coverage">
@@ -138,27 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="features in AutoPractice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutoPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="features" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Feature: CreateAccount" />
         <item itemvalue="Cucumber java.Feature: DeleteBasket (2)" />
+        <item itemvalue="Cucumber java.Scenario: As a user i want to be able to delete item in basket" />
+        <item itemvalue="Cucumber java.Feature: SelectItem (1)" />
+        <item itemvalue="Cucumber java.Feature: CreateAccount" />
         <item itemvalue="Cucumber java.Feature: SelectItem" />
-        <item itemvalue="Cucumber java.Feature: DeleteBasket (1)" />
-        <item itemvalue="JUnit.features in AutoPractice" />
       </list>
     </recent_temporary>
   </component>

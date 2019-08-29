@@ -1,15 +1,14 @@
 package pages;
 
+import Base.TestBase;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
 
-public class DeleteBasketPage {
+public class DeleteBasketPage extends  TestBase{
     //WebElements
     public WebDriver driver;
 
@@ -20,7 +19,7 @@ public class DeleteBasketPage {
     By PrintedDress = By.xpath("//*[@id=\'center_column\']/ul/li[2]/div/div[1]/div/a[1]/img");
     By ProceedToCart = By.xpath("//*[@id=\'layer_cart\']/div[1]/div[2]/div[4]/a/span");
     By AddItem = By.xpath("//*[@id=\'center_column\']/ul/li[2]/div/div[2]/div[2]/a[1]/span");
-    By DeleteButton = By.xpath("//*[@id=\'4_16_0_206257\']/i");
+    By DeleteButton = By.xpath("//i[@class='icon-trash']");
     By SummaryMessage = By.xpath("//*[@id=\'center_column\']/p");
 
 
@@ -30,11 +29,11 @@ public class DeleteBasketPage {
 
     //Actions
     public void EnterEmail() {
-        driver.findElement(Email).sendKeys("William187@gmail.com");
+        driver.findElement(Email).sendKeys(CONFIG.getProperty("Email"));
     }
 
     public void TypePassword() {
-        driver.findElement(Password).sendKeys("Test1234!");
+        driver.findElement(Password).sendKeys(CONFIG.getProperty("Password"));
     }
 
     public void ClickSignIn() {
@@ -61,11 +60,11 @@ public class DeleteBasketPage {
     }
 
     public void ConfirmDeleteButton() {
-        driver.findElement(DeleteButton);
-        if (driver.findElement(DeleteButton).getAttribute("title").contains("Delete")) {
+        GetWhenVisible(DeleteButton,5);
+        WebElement element=driver.findElement(DeleteButton);
+        if (element.isEnabled()) {
             Assert.assertTrue(true);
         }
-
     }
 
     public void DeleteItemFromCart() {

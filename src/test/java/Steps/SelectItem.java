@@ -24,6 +24,7 @@ public class SelectItem  extends TestBase {
     @Then("^i should only see summer dresses in catalogue$")
     public void i_should_only_see_summer_dresses_in_catalogue() throws Throwable {
      selectitem.ValidateSearchResult();
+     TestCleanUp();
     }
 
     @And("^i drag slider to set price range to \\$(\\d+)-(\\d+)\\$$")

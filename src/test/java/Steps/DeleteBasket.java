@@ -24,9 +24,10 @@ public class DeleteBasket extends TestBase
     }
 
     @Given("^i add a dress to my Shopping Cart$")
-    public void i_add_a_dress_to_my_Shopping_Cart() {
+    public void i_add_a_dress_to_my_Shopping_Cart()  {
         basket.ClickDresses();
         basket.AddDressToCart();
+
 
     }
 
