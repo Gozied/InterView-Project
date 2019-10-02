@@ -50,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RunnerTest">
+  <component name="RunManager" selected="Cucumber java.Feature: SelectItem (1)">
     <configuration name="Feature: CreateAccount" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CreateAccount.feature" />
@@ -159,9 +159,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: SelectItem (1)" />
         <item itemvalue="Cucumber java.Feature: DeleteBasket (2)" />
         <item itemvalue="Cucumber java.Scenario: As a user i want to be able to delete item in basket" />
-        <item itemvalue="Cucumber java.Feature: SelectItem (1)" />
         <item itemvalue="Cucumber java.Feature: CreateAccount" />
         <item itemvalue="Cucumber java.Feature: SelectItem" />
       </list>
