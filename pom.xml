@@ -106,11 +106,24 @@
             <scope>test</scope>
         </dependency>
         <!-- pom.xml -->
+        <!-- https://mvnrepository.com/artifact/ru.sbtqa/chromedriver-bin -->
+        <dependency>
+            <groupId>ru.sbtqa</groupId>
+            <artifactId>chromedriver-bin</artifactId>
+            <version>77.0.3865.40</version>
+        </dependency>
+
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
             <version>3.1.5</version>
         </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.0.0</version>
+        </dependency>
     </dependencies>
+
 
 </project>

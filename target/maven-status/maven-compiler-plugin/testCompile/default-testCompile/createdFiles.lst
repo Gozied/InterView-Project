@@ -1,0 +1,10 @@
+pages\Common.class
+Steps\RunnerTest.class
+pages\CreateAccountPage.class
+pages\LoginPage.class
+Steps\SelectItem.class
+Steps\Utility.class
+Steps\CreateAccount.class
+Steps\DeleteBasket.class
+pages\DeleteBasketPage.class
+pages\SelectItemPage.class

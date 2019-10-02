@@ -18,6 +18,7 @@ public class Utility extends TestBase {
             InitializeDriver();
             driver.get(CONFIG.getProperty("URL"));
             driver.manage().window().maximize();
+
         }
 
         @And("^i click sign in$")
